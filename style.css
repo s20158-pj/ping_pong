@@ -1,0 +1,19 @@
+#pong {
+    /*width: 600px;*/
+    /*height: 400px;*/
+}
+.score_div_container {
+    width: 33%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.score_divs {
+    width: 50%;
+}
+
+#computer_score {
+    float: right;
+    margin-top: -45px;
+}
