@@ -50,11 +50,11 @@ function drawCircle(x, y, r, color) {
     ctx.fill();
 }
 
-function drawText(text, x, y, color) {
-    ctx.fillStyle = color;
-    ctx.font = "45px roboto";
-    ctx.fillText(text, x, y);
-}
+// function drawText(text, x, y, color) {
+//     ctx.fillStyle = color;
+//     ctx.font = "45px roboto";
+//     ctx.fillText(text, x, y);
+// }
 
 function drawNet() {
     for (let i = 0; i <= cvs.height; i+=15) {
@@ -67,8 +67,8 @@ function render() {
 
     drawNet();
 
-    drawText(user.score, cvs.width/4, cvs.height/5, "white");
-    drawText(comp.score, 3*cvs.width/4, cvs.height/5, "white");
+    // drawText(user.score, cvs.width/4, cvs.height/5, "white");
+    // drawText(comp.score, 3*cvs.width/4, cvs.height/5, "white");
 
     drawRect(user.x, user.y, user.width, user.height, user.color);
     drawRect(comp.x, comp.y, comp.width, comp.height, comp.color);
